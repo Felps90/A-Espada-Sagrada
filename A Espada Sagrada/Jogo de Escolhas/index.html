@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <title>A Espada Sagrada</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Floresta-Background.png" alt="" />
+            <p>Em um belo dia, estava eu caminhando pela floresta perto de casa, fazendo a rotina que sempre fiz. Até
+                que encontrei um pergaminho perdido no chão, dizendo sobre um artefato perdido. Foi aqui que a aventura
+                começou.</p>
+            <button class="btn-prx" data-prx="1">Floresta</button>
+            <button class="btn-prx" data-prx="2">Ignorar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="Dois-Caminhos-Background.jpg" alt="" />
+            <p>No Pergaminho, dizia para seguir um caminho perto da floresta, acho que devo segui-lo. Encontrei dois
+                lugares no meio do caminho, por onde devo ir?</p>
+            <button class="btn-prx" data-prx="4">Indústria abandonada</button>
+            <button class="btn-prx" data-prx="3">Ruínas antigas</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="Background-Casa.jpg" alt="" />
+            <p>Ignoro e volto para casa, esquecendo completamente sobre o que aconteceu em 3 anos.</p>
+            <button class="btn-prx" data-prx="0">Reiniciar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="Background-Ruínas.jpg" alt="" />
+            <p>Após chegar nas Ruinas, a primeira coisa que vejo é um brilho misterioso vindo de uma rocha.</p>
+            <button class="btn-prx" data-prx="5">Sair correndo daqui!</button>
+            <button class="btn-prx" data-prx="6">Verificar o que é</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="Background-Industria.jpg" alt="" />
+            <p>Após chegar na indústria abandonada, não encontro nada de interessante e volto para casa.</p>
+            <button class="btn-prx" data-prx="0">Reiniciar</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="Background-Correndo.jpg" alt="" />
+            <p>Eu saio correndo do lugar com medo de ser algo que não posso mexer! Depois de alguns anos, decido retornar ao local e descubro que a espada não está mais lá.</p>
+            <button class="btn-prx" data-prx="0">Reiniciar</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="Background-Espada.jpg" alt="" />
+            <p>Eu verifico o que é e... Descubro que é uma espada encantada!</p>
+            <button class="btn-prx" data-prx="8">Voltar para casa com a espada</button>
+            <button class="btn-prx" data-prx="7">Deixar ela ali</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="Background-Pedra.jpg" alt="" />
+            <p>Deixo a espada ali, me arrependendo após alguns anos e, ao retornar, a mesma já não está mais lá.</p>
+            <button class="btn-prx" data-prx="0">Reiniciar</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="Background-Casa.jpg" alt="" />
+            <p>Voltei para casa com a espada e percebo que me sinto mais forte ao segurá-la!</p>
+            <p>Fim da Aventura!</p>
+            <button class="btn-prx" data-prx="0">Reiniciar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
